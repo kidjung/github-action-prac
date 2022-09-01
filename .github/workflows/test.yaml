@@ -8,10 +8,9 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-  - uses: actions/checkout@v2
-
-  - name: hello world!
-    run: echo Hello, world!
+    steps:
+      - uses: actions/checkout@v2
+      - name: hello world!
+        run: echo Hello, world!
